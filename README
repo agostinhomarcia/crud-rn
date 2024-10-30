@@ -1,4 +1,19 @@
 
-<div align="center">
-      <img src="assets/Simulator Screen Recording - iPhone 15 - 2024-10-30 at 11.02.56.mp4" alt="Tela de Login" width="250"/>
-</div>
+🎉 Aplicativo para Cadastro de Novos Usuários
+
+🔹 Como o aplicativo funciona:
+
+O usuário preenche nome, email e senha. Após um cadastro bem-sucedido, uma divertida animação de confetes é exibida 🎊.
+
+🔧 Tecnologias Utilizadas:
+
+
+* 📱 React Native: Desenvolvimento multiplataforma (iOS e Android).
+
+* 🚀 Expo: Facilita testes e integrações.
+
+* 🔄 React Navigation: Gerencia a navegação entre telas.
+
+* 📝 Formik & Yup: Gerenciamento e validação do formulário.
+
+* 🎉 React Native Confetti Cannon: Efeito de confetes para celebração!

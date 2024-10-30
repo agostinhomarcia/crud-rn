@@ -1,12 +1,10 @@
-// src/styles.js
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    paddingHorizontal: 20,
-    backgroundColor: '#f8f8f8',
+    backgroundColor: '#fff',
   },
   label: {
     fontSize: 16,
@@ -14,6 +12,7 @@ export default StyleSheet.create({
     color: '#333',
     marginBottom: 5,
     marginTop: 15,
+    marginHorizontal: 10,
   },
   input: {
     height: 50,
@@ -23,6 +22,7 @@ export default StyleSheet.create({
     paddingHorizontal: 15,
     marginBottom: 10,
     backgroundColor: '#fff',
+    marginHorizontal: 10,
   },
   passwordContainer: {
     flexDirection: 'row',
@@ -32,6 +32,7 @@ export default StyleSheet.create({
     borderRadius: 8,
     marginBottom: 10,
     backgroundColor: '#fff',
+    marginHorizontal: 10,
   },
   passwordInput: {
     flex: 1,
@@ -54,6 +55,7 @@ export default StyleSheet.create({
     borderRadius: 8,
     alignItems: 'center',
     marginTop: 20,
+    marginHorizontal: 10,
   },
   buttonText: {
     color: '#fff',

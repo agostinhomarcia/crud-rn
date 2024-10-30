@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { SafeAreaView, Text, TextInput, Button, View, TouchableOpacity } from 'react-native';
 import { Formik } from 'formik';
+import ConfettiCannon from 'react-native-confetti-cannon';
 import validationSchema from './src/validation/validationSchema';
 import styles from './src/styles/styles';
 
@@ -29,6 +30,7 @@ const App = () => {
           <View>
             {submitted ? (
               <View style={styles.successContainer}>
+                <ConfettiCannon count={200} origin={{x: 0, y: -50  }} fadeOut />
                 <Text style={styles.successText}>Cadastro realizado com sucesso!</Text>
                 <Button
                   title="Voltar"

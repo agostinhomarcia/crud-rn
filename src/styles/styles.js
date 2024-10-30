@@ -48,6 +48,7 @@ export default StyleSheet.create({
     color: 'red',
     fontSize: 13,
     marginBottom: 10,
+    marginHorizontal: 12,
   },
   button: {
     backgroundColor: '#4CAF50',
